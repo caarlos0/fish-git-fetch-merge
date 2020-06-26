@@ -13,14 +13,19 @@
 ## Install
 
 ```fish
-$ omf install fish-git-fetch-merge
+$ omf install caarlos0/fish-git-fetch-merge
 ```
 
 
 ## Usage
 
 ```fish
-$ fish-git-fetch-merge
+$ git-fetch-merge
+```
+
+Or
+
+```fish
 $ git fetch-merge
 ```
 
@@ -28,7 +33,7 @@ Or add an alias to your git config:
 
 ```conf
 [alias]
-	fm = fetch-merge
+  fm = fetch-merge
 ```
 
 and then:
@@ -44,7 +49,7 @@ $ git fm
 
 [mit]:            https://opensource.org/licenses/MIT
 [author]:         https://github.com/caarlos0
-[contributors]:   https://github.com/caarlos0/plugin-fish-git-fetch-merge/graphs/contributors
+[contributors]:   https://github.com/caarlos0/fish-git-fetch-merge/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
