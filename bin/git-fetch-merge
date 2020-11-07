@@ -9,6 +9,9 @@ end
 
 if test -z $branch
 	set branch master
+	if test -f .git/refs/remotes/$remote/main
+		set branch main
+	end
 end
 
 echo (set_color --bold magenta) "-> Fetching and merging $remote/$branch..." (set_color normal)

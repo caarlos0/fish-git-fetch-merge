@@ -13,7 +13,7 @@
 ## Install
 
 ```fish
-$ omf install caarlos0/fish-git-fetch-merge
+$ omf install https://github.com/caarlos0/fish-git-fetch-merge
 ```
 
 
